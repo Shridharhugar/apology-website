@@ -261,7 +261,7 @@ And we had long discussion on this photo that you didnt even simled on this phot
 
     title: "Clicks together ❤️",
 
-    message: `message: "🎉 31st December 2025... a night I'll never forget.
+    message: `🎉 31st December 2025... a night I'll never forget.
     🍾 We were all celebrating New Year's Eve together. It became the craziest party of my life 😂. Honestly, I barely remember everything that happened 🍻.
      I was completely drunk and not in my senses 🤍 But one thing comforts me forever 🙏. I never misbehaved with anyone that night 📞. 
      I even called my juniors randomly 😂. I kept shouting, wishing everyone Happy New Year 🎊. Somehow, that felt completely normal then 💖. 
