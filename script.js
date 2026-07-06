@@ -192,10 +192,219 @@ Even today, I wish we had gotten that beautiful moment together. ❤️`
 
     message: `Every time I look at this picture, it brings back countless emotions.
 At that moment, I had no idea these memories would become so precious to me.
-If I could relive one trip again, it would definitely be this one. ❤️`
-}
+And we had long discussion on this photo that you didnt even simled on this photo and how should i post this photo on your birthday ❤️`
+},
 
-];
+{
+    type: "gallery",
+     images: [
+        "images/varakala6.jpeg",
+        "images/varakala7.jpeg"
+     ],
+
+    title: "One More Beautiful Memory ❤️",
+
+    message: `We never actually took a photo together at Padmanabha Swamy Temple. 
+    Yet somehow, we both appeared in the same frame. Maybe it was just a coincidence, 
+    or maybe the universe was quietly giving me a sign that our paths were meant to cross. ❤️
+    and u this cap you had kept in my bag while coming back on train and i had forgot to give u back and u said to keep it with you.`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/sila1.jpeg",
+        "images/sila2.jpeg"
+    ],
+
+    title: "Silaa Cafe changed everything ❤️",
+
+    message: `☕❤️ This picture at Silaa Café is still my absolute favorite. I don't know why, but every time I look at it, it makes me smile. I've told you so many times how much I love this photo. 🥹💕\n\nThat day was honestly so crazy! 😂 You accidentally left your wallet in the auto, and instead of enjoying our time at the café, we were busy trying to find the auto driver's number. 📱🚖 Somehow, with a little luck, we finally managed to contact him. Even though we missed some of the café vibes, we still made beautiful memories together. ✨☕\n\nAfter that, we headed to watch a movie. 🎬🍿 Just when we thought the day couldn't get any crazier, the auto driver came all the way there and returned your wallet. 🥹🙏 What a relief that was!\n\nAnd of course... we also made that fun video which ended up going viral! 😂🎥❤️ That memory will always make me laugh.\n\n➡️ Click Next to relive that unforgettable video... 🎬💖"❤️`
+},
+
+{
+    type: "video",
+    src: "videos/viral.mp4",
+
+    title: "Viral Vayyari 😘💕",
+
+    message: `🎥✨ Here's the crazy video from that unforgettable day! 😂❤️ Who would've thought this little moment would go viral? It has crossed an incredible 950K+ views and is still counting! 🚀💖 Every time I watch it, it brings back all those beautiful memories and makes me smile. 🥹💕"`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/udupi1.jpeg",
+        "images/udupi2.jpeg",
+        "images/udupi3.jpeg"
+    ],
+
+    title: "Best Ever Trip ❤️",
+
+    message: `🛕✨ And here comes the trip that quietly changed my life... and maybe yours too. 
+    ❤️ What looked like a simple temple trip on the outside turned into the most unforgettable journey of my life. 
+    🚗🌸Every temple we visited, every road we traveled, every conversation we had, and every little moment we shared slowly brought us closer. 🥹💕 Without even realizing it,
+    my heart started seeing you differently. This wasn't just another trip—it became the journey where I truly understood what love feels like. 
+    ❤️🌍 It changed the way I looked at life, relationships, and happiness. Somewhere along this beautiful journey... I completely fell in love with you. 💖😘
+    Some memories are hidden in photographs, while others stay forever in our hearts. This trip gave me both. ✨💞"`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/udupi4.jpeg",
+        "images/udupi5.jpeg"
+    ],
+
+    title: "Clicks together ❤️",
+
+    message: `message: "🎉 31st December 2025... a night I'll never forget.
+    🍾 We were all celebrating New Year's Eve together. It became the craziest party of my life 😂. Honestly, I barely remember everything that happened 🍻.
+     I was completely drunk and not in my senses 🤍 But one thing comforts me forever 🙏. I never misbehaved with anyone that night 📞. 
+     I even called my juniors randomly 😂. I kept shouting, wishing everyone Happy New Year 🎊. Somehow, that felt completely normal then 💖. 
+     I remember wishing you and Manogana too ❤️. Then... three magical words escaped my heart 💞. 'I Love You 🤍. To Manogana, it was only friendly affection 💕.
+    But for you... every word was real 🥹. Those feelings had always lived inside me🍷. Maybe the alcohol removed my fear ❤️. My heart finally spoke without hesitation 💍.
+    Yes... I unknowingly proposed to you ✨. People say drunk words reveal honest hearts 🌸. That night made me believe it's true🤍 I never imagined proposing like that 😅,
+    It wasn't romantic or perfectly planned💭, It simply happened from my heart 😔, I didn't even know about you and Kiran then 💔. Later, I worried my words hurt you 🙏.
+    Thankfully, you never stayed angry with me 🥹,Your kindness meant everything to me 💕. I always dreamed of a magical proposal 🌹. Candles, smiles, and beautiful memories together 🚗.
+    But Bangalore and Belgaum kept us apart ⏳.Distance stole many beautiful opportunities 💖. I even planned once 😅.Sadly, that plan completely failed 🌍, Maybe destiny had different plans for us ✨,
+    Looking back, I regret nothing ❤️, Because that night changed my life forever 🌸, God silently brought you into my world 💍. One day, I want another chance 💕. A proper proposal, straight from my heart 📸.
+    This time, we'll capture every beautiful moment. A memory we'll cherish for a lifetime. ❤️`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/udupi6.jpeg",
+        "images/udupi7.jpeg"
+    ],
+
+    title: "Travel Dairy",
+
+    message: `🤍 Looking back now, I don't think it was just a coincidence.\n\n✨ Almost every trip and outing brought us together.\n\n🚗 Somehow, we always ended up sitting beside each other.\n\n💕
+    Maybe destiny had already reserved that seat for us.\n\n🥹 Every journey felt special because you were next to me.\n\n❤️ Sitting beside you always made me feel comfortable.\n\n🤍 I hope you felt the same way too.\n\n😅 
+    And yes... I have a little confession.\n\n🙈 Most of the time, I intentionally chose the seat beside you.\n\n💖 Because every minute with you made me genuinely happy.\n\n📸 This picture reminds me of one beautiful moment.\n\n😊 
+    You were saying something very seriously.\n\n😅 I don't remember if you were angry with me.\n\n👀 But I still remember what I told you.\n\n😂 'When you open your eyes wide...'\n\n🥺 '...I get scared you'll scold or even beat me!'\n\n🤣 
+    You laughed at my silly words.\n\n💕 But there was one truth behind that joke.\n\n😍 I absolutely love your beautiful eyes.\n\n✨ They always speak louder than words.\n\n😊 And your smile...\n\n❤️ Your smile became my favorite sight.\n\n💖 
+    Every smile made me fall for you even more.\n\n🌸 Every glance, every laugh, every little moment...\n\n🥹 Slowly turned into reasons to love you.\n\n💞 Maybe that's how love quietly found its way into my heart. ❤️"`
+},
+
+{
+    type: "video",
+    src: "videos/udupi8.mp4",
+
+    title: "Memories",
+
+    message: `Travel videos ❤️`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/home1.jpeg"
+    ],
+
+    videos: [
+        "videos/Home1.mp4",
+        "videos/home2.mp4"
+    ],
+
+    title: "Randome Snaps ❤️",
+
+    message: `Some moments spent together ❤️`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/mysuru1.jpeg",
+        "images/mysuru2.jpeg"
+       
+    ],
+
+    title: "Mysuru ❤️",
+
+    message:`The Mysuru trip was never really part of the plan. ❤️
+At first, we had completely cancelled it. But somehow, destiny had different plans for us. ✨
+In the end, we managed to make the trip happen. To be honest, one of the biggest reasons I came was because you were going. 🥹
+I was hoping we would get some beautiful moments together and enjoy the peaceful vibes of Mysuru. Buying a saree from KSIC wasn't even in the plan.
+You suddenly decided to visit the store, and even then, you weren't sure whether to buy one. We waited there for hours until late at night.
+None of us got proper sleep, but somehow it never felt tiring. Every moment spent with you made the wait completely worth it. ❤️
+Sometimes, the best memories come from the most unexpected plans. Looking back now, I'm really glad this sudden trip happened.
+It gave me another beautiful memory with you that I'll always cherish forever. 💖`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/mysuru3.jpeg",
+        "images/mysuru4.jpeg"
+       
+    ],
+
+    title: "Mysuru ❤️",
+
+    message: `You suddenly decided to visit the store, and even then, you weren't sure whether to buy one. We waited there for hours until late at night.
+None of us got proper sleep, but somehow it never felt tiring. Every moment spent with you made the wait completely worth it. ❤️
+Sometimes, the best memories come from the most unexpected plans. Looking back now, I'm really glad this sudden trip happened.
+It gave me another beautiful memory with you that I'll always cherish forever. 💖`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/mysuru5.jpeg",
+        "images/mysuru6.jpeg"
+    ],
+
+    videos: [
+        "videos/mysuru1.mp4"
+    ],
+
+    title: "Mysuru Memories ❤️",
+
+    message: `I am really very sorry if i hurted you in mysuru trip kanda❤️`
+},
+
+{
+    type: "gallery",
+
+    videos: [
+        "videos/kahale.mp4",
+        "videos/kahale1.mp4"
+    ],
+
+    title: "Random Videos 😘💕",
+
+    message: `Weekend dates with my girl. ❤️`
+},
+
+{
+    type: "gallery",
+
+    images: [
+        "images/date.jpeg",
+        "images/date1.jpeg"
+       ],
+
+    title: "Holding your hand life long ❤️",
+
+    message:`People say love is found in grand gestures. I found it in the way you looked at me.
+In the way our hands found each other. In the peaceful silence we shared.
+And in every little moment that made my heart choose you, again and again. ❤️
+And i said before on 3rd jan night i will not leave you i will be there for you holding your hands always`
+},
+
+]
+
 
 // ==========================================
 // Variables
@@ -219,14 +428,15 @@ const bgMusic = document.getElementById("bgMusic");
 
 function stopCurrentVideo() {
 
-    const video = mediaContainer.querySelector("video");
+    const videos = document.querySelectorAll("video");
 
-    if (video) {
+    videos.forEach(video => {
 
         video.pause();
+
         video.currentTime = 0;
 
-    }
+    });
 
 }
 
@@ -274,19 +484,73 @@ function createVideo(memory) {
 
 function createGallery(memory) {
 
-    return `
-        <div class="photo-collage">
+    let html = `<div class="photo-collage">`;
 
-            ${memory.images.map(image => `
+    // Images
+    if (memory.images) {
 
+        memory.images.forEach(image => {
+
+            html += `
                 <img
                     src="${image}"
-                    class="love-photo">
+                    class="love-photo"
+                    loading="lazy">
+            `;
 
-            `).join("")}
+        });
 
-        </div>
-    `;
+    }
+
+    // Videos
+    if (memory.videos) {
+
+        memory.videos.forEach(video => {
+
+            html += `
+                <video
+    class="love-photo"
+    controls
+    playsinline
+    preload="metadata">
+
+    <source
+        src="${video}"
+        type="video/mp4">
+
+    Your browser does not support video.
+
+</video>
+            `;
+
+        });
+
+    }
+
+    html += `</div>`;
+
+    // Audio
+    if (memory.audio) {
+
+        html += `
+
+            <div class="memory-audio">
+
+                <audio controls>
+
+                    <source
+                        src="${memory.audio}"
+                        type="audio/mpeg">
+
+                </audio>
+
+            </div>
+
+        `;
+
+    }
+
+    return html;
 
 }
 
