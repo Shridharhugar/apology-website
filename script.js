@@ -456,6 +456,7 @@ const prevBtn = document.getElementById("prevBtn");
 const openBtn = document.getElementById("openBtn");
 
 const bgMusic = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
 
 // ==========================================
 // Pause Current Video
@@ -606,25 +607,55 @@ function showMemory(index) {
         switch (memory.type) {
 
             case "image":
-
                 mediaContainer.innerHTML = createImage(memory);
                 break;
 
             case "video":
-
                 mediaContainer.innerHTML = createVideo(memory);
                 break;
 
             case "gallery":
-
                 mediaContainer.innerHTML = createGallery(memory);
                 break;
 
         }
 
+memoryTitle.style.opacity="0";
+
+memoryMessage.style.opacity="0";
+
         memoryTitle.textContent = memory.title;
 
         memoryMessage.textContent = memory.message;
+
+memoryTitle.style.opacity="1";
+
+memoryMessage.style.opacity="1";
+
+        function typeWriter(text){
+
+memoryMessage.textContent="";
+
+let i=0;
+
+const typing=setInterval(()=>{
+
+memoryMessage.textContent+=text.charAt(i);
+
+i++;
+
+if(i>=text.length){
+
+clearInterval(typing);
+
+}
+
+},20);
+
+}
+
+        document.getElementById("memoryCounter").innerHTML =
+            `❤️ ${index + 1} / ${memories.length}`;
 
         mediaContainer.style.opacity = "1";
 
@@ -680,15 +711,19 @@ function openGallery() {
         .getElementById("galleryPage")
         .classList.remove("hidden");
 
-    if (bgMusic) {
+    // Start background music
 
-        bgMusic.play().catch(() => {
+    bgMusic.play().then(() => {
 
-            console.log("Autoplay blocked.");
+        musicBtn.innerHTML = "⏸";
 
-        });
+        musicBtn.classList.add("playing");
 
-    }
+    }).catch(() => {
+
+        console.log("Autoplay blocked.");
+
+    });
 
     showMemory(current);
 
@@ -754,3 +789,95 @@ document.addEventListener("touchend", (e) => {
     }
 
 });
+
+// ==========================================
+// Music Button
+// ==========================================
+
+musicBtn.addEventListener("click", () => {
+
+    if (bgMusic.paused) {
+
+        bgMusic.play();
+
+        musicBtn.innerHTML="⏸️";
+
+        musicBtn.classList.add("playing");
+
+    } else {
+
+        bgMusic.pause();
+
+        musicBtn.innerHTML="▶️";
+
+        musicBtn.classList.remove("playing");
+
+    }
+
+});
+
+window.addEventListener("load", () => {
+
+    const loader = document.getElementById("loader");
+
+    loader.style.opacity = "0";
+
+    setTimeout(() => {
+
+        loader.style.display = "none";
+
+    },1000);
+
+});
+
+const hearts=document.querySelector(".hearts");
+
+function createHeart(){
+
+const heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"%";
+
+heart.style.fontSize=(18+Math.random()*18)+"px";
+
+heart.style.animationDuration=(8+Math.random()*8)+"s";
+
+hearts.appendChild(heart);
+
+setTimeout(()=>{
+
+heart.remove();
+
+},16000);
+
+}
+
+setInterval(createHeart,500);
+
+const sparkles=document.querySelector(".sparkles");
+
+function createSparkle(){
+
+const sparkle=document.createElement("div");
+
+sparkle.className="sparkle";
+
+sparkle.style.left=Math.random()*100+"%";
+
+sparkle.style.top=Math.random()*100+"%";
+
+sparkles.appendChild(sparkle);
+
+setTimeout(()=>{
+
+sparkle.remove();
+
+},3000);
+
+}
+
+setInterval(createSparkle,250);

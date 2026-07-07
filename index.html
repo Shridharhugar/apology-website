@@ -3,102 +3,222 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>For My Geethu ❤️</title>
+    <title>For My Geethu ❤️</title>
 
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
+    <meta name="description"
+        content="A beautiful love story created with memories, photos and videos.">
 
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap"
-rel="stylesheet">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
 
-<link rel="stylesheet"
-href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="hearts"></div>
+    <!-- ==========================================
+                LOADING SCREEN
+    =========================================== -->
 
-<!-- PAGE 1 -->
+    <div id="loader">
 
-<section
-id="page1"
-class="page">
+        <div class="loader-heart">
+        </div>
 
-<div class="card">
+        <h2 class="loader-text">
+        </h2>
 
-<h3>Hello ❤️</h3>
+    </div>
 
-<h1>
-My Dearest Geethu
-</h1>
+    <!-- ==========================================
+                BACKGROUND LAYERS
+    =========================================== -->
 
-<p class="subtitle">
+    <div class="aurora"></div>
 
-Every beautiful memory of my life
-has one thing in common...
+    <div class="sparkles"></div>
 
-<b>You.</b>
+    <div class="hearts"></div>
 
-</p>
+    <div class="flowers"></div>
 
-<button id="openBtn">
+    <div class="butterflies"></div>
 
-Open My Heart 💖
+    <div class="cursor-glow"></div>
 
-</button>
+    <div class="confetti"></div>
 
-</div>
+    <div class="fireworks"></div>
 
-</section>
+    <div id="emojiBurstContainer"></div>
 
-<!-- GALLERY -->
+    <!-- ==========================================
+                WELCOME PAGE
+    =========================================== -->
 
-<section
-id="galleryPage"
-class="page hidden">
+    <section
+        id="page1"
+        class="page">
 
-<div class="card gallery-card">
+        <div class="card">
 
-<div id="mediaContainer">
+            <h3>Hello ❤️</h3>
 
-</div>
+            <h1>My Dearest Geethu</h1>
 
-<h2 id="memoryTitle"></h2>
+            <p class="subtitle">
 
-<p id="memoryMessage"></p>
+                Every beautiful memory of my life
+                has one thing in common...
 
-<div class="button-group">
+                <br><br>
 
-<button id="prevBtn">
+                <b>You.</b>
 
-⬅ Previous
+            </p>
 
-</button>
+            <button
+                id="openBtn"
+                aria-label="Open our memories">
 
-<button id="nextBtn">
+                Open My Heart 💖
 
-Next ❤️
+            </button>
 
-</button>
+        </div>
 
-</div>
+    </section>
 
-</div>
+    <!-- ==========================================
+                GALLERY PAGE
+    =========================================== -->
 
-</section>
+    <main>
 
-<script src="script.js"></script>
+        <section
+            id="galleryPage"
+            class="page hidden">
+
+            <div class="card gallery-card">
+
+                <!-- Memory Counter -->
+
+                <div class="memory-header">
+
+                    <span id="memoryCounter"></span>
+
+                </div>
+
+                <!-- Media -->
+
+                <div id="mediaContainer"></div>
+
+                <!-- Title -->
+
+                <h2 id="memoryTitle"></h2>
+
+                <!-- Story -->
+
+                <p id="memoryMessage"></p>
+
+                <!-- Progress -->
+
+                <div class="progress-wrapper">
+
+                    <div class="progress-track">
+
+                        <div
+                            id="progressFill"
+                            class="progress-fill">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Quote -->
+
+                <div
+                    id="loveQuote"
+                    class="floating-quote"></div>
+
+                <!-- Navigation -->
+
+                <div class="button-group">
+
+                    <button
+                        id="prevBtn"
+                        aria-label="Previous Memory">
+
+                        ⬅ Previous
+
+                    </button>
+
+                    <button
+                        id="nextBtn"
+                        aria-label="Next Memory">
+
+                        Next ❤️
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==========================================
+                MUSIC PLAYER
+    =========================================== -->
+
+    <!-- ==========================================
+        BACKGROUND MUSIC
+========================================== -->
+
+<audio
+    id="bgMusic"
+    preload="auto"
+    loop>
+
+    <source
+        src="music/Ishq wala love.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+    <div class="music-player">
+
+        <button
+            id="musicBtn"
+            class="music-btn"
+            aria-label="Play or Pause Music">
+
+            🎵
+
+        </button>
+
+    </div>
+
+    <!-- ==========================================
+                JAVASCRIPT
+    =========================================== -->
+
+    <script src="script.js"></script>
 
 </body>
 
