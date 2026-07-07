@@ -215,7 +215,8 @@ And we had long discussion on this photo that you didnt even simled on this phot
 
     images: [
         "images/sila1.jpeg",
-        "images/sila2.jpeg"
+        "images/sila2.jpeg",
+        "images/sila3.jpeg"
     ],
 
     title: "Silaa Cafe changed everything ❤️",
@@ -300,6 +301,23 @@ And we had long discussion on this photo that you didnt even simled on this phot
     title: "Memories",
 
     message: `Travel videos ❤️`
+},
+
+{
+    type: "image",
+    src: "images/commit.jpeg",
+
+    title: "The Day Of Our Life ❤️",
+
+    message: `On the last day of our trip, as everyone started leaving for home, I was about to leave too. But my heart wouldn't let me go without talking to you. 🥹
+Somewhere deep inside, I kept wondering if I had unknowingly done something during the trip that had hurt you. Before leaving, I wanted to know how you truly felt.
+After everyone left, we finally got a quiet moment together. We sat side by side and talked about everything that had happened during the trip.
+We shared our thoughts, our feelings, our fears, and every little thing that had been on our minds. Slowly, every misunderstanding disappeared.
+The biggest relief for me was realizing that you weren't hurt. Instead, you accepted my love with the most beautiful smile I've ever seen. ❤️
+Then came the hug...A hug I'll cherish for the rest of my life. For a few beautiful moments, it felt like the whole world had stopped, and it was just you and me.
+We spoke about our future, our dreams, and the journey we wanted to build together. We promised to stand beside each other through every happiness and every challenge.
+That conversation didn't just end our trip... It became the beginning of our beautiful journey together. Seeing the happiness in your eyes was the most precious gift I could ever receive.
+That day, we didn't just accept each other...We chose each other. And if life gives me a choice again and again...I'll always choose you. Forever. ❤️`
 },
 
 {
@@ -401,6 +419,23 @@ It gave me another beautiful memory with you that I'll always cherish forever. �
 In the way our hands found each other. In the peaceful silence we shared.
 And in every little moment that made my heart choose you, again and again. ❤️
 And i said before on 3rd jan night i will not leave you i will be there for you holding your hands always`
+},
+
+{
+    type: "image",
+    src: "images/manga.jpeg",
+
+    title: "Mangalore ❤️",
+
+    message: `❤️ Our Mangalore trip was one of the most unexpected, yet one of the most beautiful memories we'll always share. Initially, you were supposed to travel with your family, while I had planned to stay back in my hometown.
+But when those plans changed, you looked at me and asked, "Will you come with me?" 🥹 Without thinking for even a second, my answer was an instant "Yes."
+The truth is, I would've said yes to any journey... as long as it was with you. ❤️ As soon as I returned to Bangalore, we planned everything together and booked our resort.
+Since we both had interviews over the weekend, we decided to travel on a weekday instead. Unfortunately, I couldn't plan my office leave properly and had to take an emergency leave.
+Because I was worried about logging in, I rushed our temple darshan. I know that disappointed you, and I'm genuinely sorry for that. Looking back now, I wish I had forgotten about work and given every single moment of that trip completely to you. ❤️
+That evening, we were excited to witness the famous Mangalore Kola Festival. Sadly, it wasn't happening that day. And just like our Varkala trip, the rain once again stole our dream of walking together on the beach. 🌧️
+Later that day, you suddenly received multiple interview calls. Since you also had to return for Deepa on Friday, we decided to cut our trip short and head back home.
+Many of our plans didn't go the way we had imagined. But whenever I think about this trip, I never remember the disappointments. I remember saying "yes" to a journey with you.
+I remember every conversation, every laugh, every little moment we shared. Because no matter where we go or how the plans change...Every journey becomes special when I'm traveling with you. ❤️`
 },
 
 ]
