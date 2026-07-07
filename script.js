@@ -438,6 +438,21 @@ Many of our plans didn't go the way we had imagined. But whenever I think about 
 I remember every conversation, every laugh, every little moment we shared. Because no matter where we go or how the plans change...Every journey becomes special when I'm traveling with you. ❤️`
 },
 
+{
+    type: "image",
+src: "gifs/peach-cat-cute.gif",
+
+    title: "I'm Really Sorry 🥺❤️",
+
+    message: `I know I made mistakes.
+I never wanted to hurt you.
+If my words or actions caused you pain,
+I'm truly sorry from the bottom of my heart.
+Please forgive me.
+You mean the world to me.
+🥺❤️`
+},
+
 ]
 
 
@@ -591,6 +606,36 @@ function createGallery(memory) {
 }
 
 // ==========================================
+// Typewriter Effect
+// ==========================================
+
+let typingTimer;
+
+function typeWriter(text) {
+
+    clearInterval(typingTimer);
+
+    memoryMessage.innerHTML = "";
+
+    let i = 0;
+
+    typingTimer = setInterval(() => {
+
+        memoryMessage.innerHTML += text.charAt(i);
+
+        i++;
+
+        if (i >= text.length) {
+
+            clearInterval(typingTimer);
+
+        }
+
+    }, 18);
+
+}
+
+// ==========================================
 // Show Memory
 // ==========================================
 
@@ -602,7 +647,14 @@ function showMemory(index) {
 
     mediaContainer.style.opacity = "0";
 
+    memoryTitle.style.opacity = "0";
+    memoryMessage.style.opacity = "0";
+
     setTimeout(() => {
+
+        // -------------------------
+        // Load Media
+        // -------------------------
 
         switch (memory.type) {
 
@@ -618,50 +670,66 @@ function showMemory(index) {
                 mediaContainer.innerHTML = createGallery(memory);
                 break;
 
+            default:
+                mediaContainer.innerHTML = "";
         }
 
-memoryTitle.style.opacity="0";
-
-memoryMessage.style.opacity="0";
+        // -------------------------
+        // Memory Title
+        // -------------------------
 
         memoryTitle.textContent = memory.title;
 
-        memoryMessage.textContent = memory.message;
+        // -------------------------
+        // Typewriter Message
+        // -------------------------
 
-memoryTitle.style.opacity="1";
+        typeWriter(memory.message);
 
-memoryMessage.style.opacity="1";
-
-        function typeWriter(text){
-
-memoryMessage.textContent="";
-
-let i=0;
-
-const typing=setInterval(()=>{
-
-memoryMessage.textContent+=text.charAt(i);
-
-i++;
-
-if(i>=text.length){
-
-clearInterval(typing);
-
-}
-
-},20);
-
-}
+        // -------------------------
+        // Counter
+        // -------------------------
 
         document.getElementById("memoryCounter").innerHTML =
-            `❤️ ${index + 1} / ${memories.length}`;
+            `❤️ Memory ${index + 1} of ${memories.length}`;
+
+        // -------------------------
+        // Progress Bar
+        // -------------------------
+
+        const progress =
+            ((index + 1) / memories.length) * 100;
+
+        document.getElementById("progressFill").style.width =
+            progress + "%";
+
+        // -------------------------
+        // Fade In
+        // -------------------------
 
         mediaContainer.style.opacity = "1";
+        memoryTitle.style.opacity = "1";
+        memoryMessage.style.opacity = "1";
 
-        prevBtn.disabled = index === 0;
+        // -------------------------
+        // Navigation Buttons
+        // -------------------------
 
-        nextBtn.disabled = index === memories.length - 1;
+        prevBtn.disabled = (index === 0);
+
+        // Keep Next button enabled
+        nextBtn.disabled = false;
+
+        // Change button text on last memory
+        if (index === memories.length - 1) {
+
+            nextBtn.innerHTML = "🥺 One Last Surprise ❤️";
+
+        } else {
+
+            nextBtn.innerHTML = "Next ❤️";
+
+        }
 
     }, 300);
 
@@ -673,12 +741,36 @@ clearInterval(typing);
 
 function nextMemory() {
 
-    if (current >= memories.length - 1)
+    // Last memory
+    if (current === memories.length - 1) {
+
+        openForgivePage();
+
         return;
+
+    }
 
     current++;
 
     showMemory(current);
+
+}
+
+// ==========================================
+// Open Forgive Page
+// ==========================================
+
+function openForgivePage() {
+
+    document
+        .getElementById("galleryPage")
+        .classList.add("hidden");
+
+    document
+        .getElementById("forgivePage")
+        .classList.remove("hidden");
+
+    startForgiveMeter();
 
 }
 
@@ -881,3 +973,96 @@ sparkle.remove();
 }
 
 setInterval(createSparkle,250);
+
+function startForgiveMeter(){
+
+let progress=0;
+
+const fill=document.getElementById("meterFill");
+
+const text=document.getElementById("meterText");
+
+const btn=document.getElementById("forgiveBtn");
+
+const timer=setInterval(()=>{
+
+progress++;
+
+fill.style.width=progress+"%";
+
+text.innerHTML=
+
+"Forgiveness Meter : "+progress+"%";
+
+if(progress>=100){
+
+clearInterval(timer);
+
+text.innerHTML=
+
+"❤️ Thank you for reaching the end ❤️<br>Will you forgive me?";
+
+btn.style.display="block";
+
+}
+
+},60);
+
+}
+document
+.getElementById("forgiveBtn")
+.addEventListener("click",()=>{
+
+alert("🥹❤️ Thank you for forgiving me ❤️");
+
+});
+function startForgiveMeter() {
+
+    let progress = 0;
+
+    const fill = document.getElementById("meterFill");
+
+    const text = document.getElementById("meterText");
+
+    const btn = document.getElementById("forgiveBtn");
+
+    const messages = [
+
+        "🥺 Gathering courage...",
+
+        "❤️ Remembering our memories...",
+
+        "🌸 Preparing my apology...",
+
+        "💕 Hoping you'll smile...",
+
+        "💖 Trying to melt your heart...",
+
+        "🥹 Almost there..."
+    ];
+
+    const timer = setInterval(() => {
+
+        progress++;
+
+        fill.style.width = progress + "%";
+
+        text.innerHTML =
+            messages[Math.floor(progress / 20)] +
+            "<br><br>" +
+            progress + "%";
+
+        if (progress >= 100) {
+
+            clearInterval(timer);
+
+            text.innerHTML =
+                "❤️ Will You Forgive Me? ❤️";
+
+            btn.style.display = "inline-block";
+
+        }
+
+    }, 60);
+
+}
