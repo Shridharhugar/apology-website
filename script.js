@@ -10,8 +10,13 @@ const memories = [
 
     title: "Our First Photo ❤️",
 
-    message: `Every smile of yours makes my world brighter.
-Every moment with you becomes a memory I'll cherish forever.
+    message: `❤️ Every story has a beginning...
+And for me...
+This picture is where so many beautiful memories started. 📸
+Every smile of yours had a way of making my world a little brighter. ✨
+Every moment we spent together quietly became a memory I'll cherish forever.
+Looking back now...
+I feel incredibly grateful that life brought you into mine. 🥹
 Thank you for becoming one of the most beautiful parts of my life. ❤️`
 },
 
@@ -19,153 +24,266 @@ Thank you for becoming one of the most beautiful parts of my life. ❤️`
     type: "image",
     src: "images/photo2.jpeg",
 
-    title: "Our Happy Moment ❤️",
+    title: "Our Happy Moment 🩷",
 
-    message: `This was our very first team outing.
+    message: `😊 This was our very first team outing together.
 I still remember standing behind you while this picture was being taken.
-Looking back now, it feels like destiny had already started writing our story. ❤️`
+At that moment...
+It was just another group photo.
+But today...
+When I look back at it, it feels so much more than that.
+Sometimes...
+I wonder if destiny had already started writing our story...
+Long before we even realized it. ❤️✨`
 },
 
 {
     type: "video",
     src: "videos/video.mp4",
 
-    title: "Bob's Bar Memories ❤️",
+    title: "Bob's Bar Memories 🧡",
 
-    message: `This was the day we went to Bob's Bar after Ranju's farewell.
-Earlier that day, I called you and asked you to come to the office because we were planning to go out together later.
-You came directly there, and we ended up having such a wonderful evening together. ❤️`
+    message: `🍻 This was the day we all went to Bob's Bar after Ranju's farewell.
+Earlier that day...
+I called you and asked you to come to the office because we were planning to go out together afterwards.
+You you didn't came to office but later come to the party that evening. ❤️
+And what followed was one of those simple evenings that quietly turned into a beautiful memory.
+Sometimes...
+The best moments aren't planned.
+They just happen.
+And this was definitely one of them. 🥹❤️❤️`
 },
 
 {
     type: "image",
     src: "images/photo3.jpeg",
 
-    title: "Your Beautiful Smile ❤️",
+    title: "Your Beautiful Smile 💕",
 
-    message: `That party will always remain special to me.
-When my hands rested on your shoulders, it felt as if, for just a moment,
-we already belonged together. ❤️`
+    message: `This party will always remain special to me.
+Not because of the place...
+Not because of the celebration...
+But because of this beautiful moment.
+When my hands rested on your shoulders...
+For just a few seconds...
+It felt like we already belonged together.
+Even today...
+Looking at this picture brings back the same feeling. ❤️`
 },
 
 {
     type: "video",
     src: "videos/video1.mp4",
 
-    title: "Night Shift Memories ❤️",
+    title: "Night Shift Memories 💖",
 
-    message: `Those night shifts became some of the happiest moments of my life.
-Working together, laughing over silly things, and spending those long nights with you made every shift unforgettable.
-Those memories will always have a special place in my heart. ❤️`
+    message: `Those night shifts became some of the happiest days of my life.
+What started as work...
+Slowly became laughter...
+Conversations...
+Inside jokes...
+And countless beautiful memories.
+Working together never felt tiring because you were always there.
+Looking back now...
+Those nights will always hold a very special place in my heart. ❤️`
 },
 
 {
     type: "video",
     src: "videos/video2.mp4",
 
-    title: "Learning to Ride ❤️",
+    title: "Learning to Ride 💗",
 
-    message: `I still remember how Bharat and I tried to teach you how to ride the scooty. 🛵
-You were so nervous at first, but you still gathered the courage to try.
-Watching you learn is one of the cutest memories I'll always cherish. ❤️`
+    message: `I still remember the day Bharat and I tried teaching you how to ride the scooty. 🛵
+At first...
+You were so nervous.
+You kept doubting yourself.
+But despite being scared...
+You still gathered the courage to try.
+Watching you slowly gain confidence made me genuinely happy.
+Even today...
+It's one of the cutest memories I'll always cherish. ❤️`
 },
 
 {
     type: "video",
     src: "videos/video3.mp4",
 
-    title: "Sharing Our Stories ❤️",
+    title: "Sharing Our Stories 💓",
 
-    message: `I still remember that night when we shared our life stories during our night shift.
-You opened up about your life, and I shared mine too.
-That was the moment I realized what an amazing listener and friend you are.
-I truly believe those night shifts brought us much closer. ❤️`
+    message: `I still remember that quiet night during our shift.
+We started talking...
+And before we knew it...
+We were sharing our life stories with each other.
+You opened your heart to me.
+I opened mine to you.
+That night made me realize what an amazing listener and wonderful friend you truly are.
+Sometimes...
+It only takes one honest conversation to bring two people closer.
+And I believe that night did exactly that. ❤️`
 },
 
 {
     type: "image",
     src: "images/photo4.jpeg",
 
-    title: "Our First Trip ❤️",
+    title: "Our First Trip 💞",
 
-    message: `Our first trip with our office friends was unforgettable.
-We were struggling to find another girl to join us, and finally you convinced your friend to come along.
-Because of that, we all had an amazing trip together. ❤️`
+    message: `Our very first trip with our office friends...
+A trip I'll never forget.
+At first...We were struggling to find another girl to join us.
+Then you convinced your friend to come along.
+Because of that one decision...
+The trip finally happened.
+And little did we know...
+It would become the beginning of countless beautiful memories together. ❤️`
 },
 
 {
     type: "image",
     src: "images/photo5.jpeg",
 
-    title: "Honnavara Trip ❤️",
+    title: "Honnavara Trip 💘",
 
-    message: `This trip gave us countless memories.
-If you remember, Srinidhi danced on the hanging bridge and we couldn't stop laughing.
-By mistake, Nandu even posted that video on Instagram.
-I downloaded it back then, but sadly I have no idea where it disappeared. ❤️`
+    message: `This trip gave us memories that still make me smile.
+Do you remember Srinidhi dancing on the hanging bridge?
+We laughed so much that day.
+And then...
+By mistake...
+Nandu uploaded that funny video on Instagram. 😂
+I downloaded it back then because I wanted to keep that memory forever.
+Sadly...
+I have no idea where it disappeared.
+But thankfully...
+The memories are still safely stored in my heart. ❤️`
 },
 
 {
     type: "image",
     src: "images/wayanad1.jpeg",
 
-    title: "Wayanad Trip ❤️",
+    title: "Wayanad Trip 💝",
 
-    message: `This trip was even better than our first one.
-The five of us had so much fun, especially teasing Naveen throughout the journey.
-The funny arguments between Naveen and Nandu made everything even more entertaining. ❤️`
+    message: `This trip was even more fun than our very first one.
+The five of us laughed almost the entire journey.
+Especially whenever Naveen became the center of everyone's jokes. 😂
+The funny arguments between Naveen and Nandu made every moment even more entertaining.
+Looking back now...
+I don't just remember the places we visited.
+I remember the laughter we shared.
+And that's what made this trip unforgettable. ❤️`
 },
 
 {
-    type: "image",
-    src: "images/wayanad2.jpeg",
+    type: "gallery",
 
-    title: "Campfire Night ❤️",
+    images: [
+        "images/wayanad2.jpeg"
+    ],
 
-    message: `Our first night around the campfire was unforgettable.
-Srinidhi, Naveen, and I were completely drunk and barely knew what we were doing.
-We even ended up breaking a few plates and glasses. 😅❤️`
+    videos: [
+        "videos/wayanad1.mp4",
+        "videos/wayanad2.mp4"
+    ],
+
+    title: "Campfire Night ❣️",
+
+    message: `Our very first campfire night...
+Definitely one of the craziest memories we'll always remember.
+Srinidhi, Naveen, and I were completely drunk.
+Honestly...
+None of us even knew what we were doing. 😂
+Somehow...
+We even managed to break a few plates and glasses.
+Looking back now...It feels less like a mistake...
+And more like another funny story we'll laugh about forever. ❤️`
 },
 
 {
-    type: "image",
-    src: "images/wayanad3.jpeg",
+    type: "gallery",
 
-    title: "Safari Day ❤️",
+    images: [
+        "images/wayanad3.jpeg"
+    ],
 
-    message: `The safari wasn't quite as exciting as we expected,
-but the trip itself became one of our favorite memories.
-Even though we don't have many pictures together from those days,
-we created memories that will stay with us forever. ❤️`
+    videos: [
+        "videos/wayanad3.mp4",
+        "videos/wayanad4.mp4"
+    ],
+
+    title: "Safari Day 🚗❤️",
+
+    message: `To be honest...
+The safari wasn't as exciting as we had imagined.
+But strangely...
+That never mattered.
+Because the trip itself became one of our favorite memories.
+We may not have many pictures together from those days.
+But sometimes...
+The best memories aren't the ones captured by a camera.
+They're the ones that stay in our hearts forever. ❤️`
 },
 
 {
     type: "image",
     src: "images/varakala1.jpeg",
 
-    title: "Varkala Trip ❤️",
+    title: "Varkala Trip 🌊🩷",
 
-    message: `This is one of our favorite pictures because it was captured so naturally.
-We had to convince our leads and managers a lot to make this trip happen, especially after you had moved to another team.
-Looking back now, I feel this trip changed both of us because we had some of the deepest conversations of our lives. ❤️`
+    message: `This has always been one of my favorite pictures of us.
+Not because it was perfectly posed...
+But because it captured a beautiful moment so naturally.
+We had to convince our leads and managers a lot to make this trip happen...
+Especially after you had moved to another team.
+Looking back now...
+I truly believe this trip changed both of us.
+Because somewhere between the beaches...
+The sunsets...
+And our long conversations...
+We shared some of the deepest talks of our lives.
+Maybe...
+This trip quietly brought our hearts a little closer. ❤️`
 },
 
 {
-    type: "image",
-    src: "images/varakala2.jpeg",
+    type: "gallery",
 
-    title: "Our Heart-to-Heart Conversation ❤️",
+    images: [
+        "images/varakala2.jpeg"
+    ],
 
-    message: `During our walk along the cliff, you shared everything that was going on in your life.
-You told me about your relationship, your confusion, and everything you were feeling.
-I simply listened and shared whatever advice I could.
+    videos: [
+        "videos/varakala.mp4"
+    ],
 
-At that time, you were still unsure whether to continue your relationship with Kiran.
-I remember telling you to meet him once, talk openly face to face, and if he was ready to give you the commitment you deserved, then continue. Otherwise, the decision would always be yours.
+    title: "Our Heart-to-Heart Conversation 🏞️❤️",
 
-After saying all that, I quietly felt a little sad.
-By then, I had already fallen in love with you, but I never had the courage to tell you.
-More than anything, I never wanted to come between you and Kiran because I knew you still loved him then. ❤️`
+    message:`During our walk along the cliff...
+You slowly opened up to me about everything that was going on in your life.
+You shared your thoughts...
+Your confusion...
+Your relationship...
+And everything your heart had been carrying.
+I simply sat beside you...
+Listened to every word...
+And shared whatever advice I could. ❤️
+At that time...
+You were still unsure whether to continue your relationship with Kiran.
+I still remember what I told you.
+I asked you to meet him once...
+Talk to him face to face...
+Have an honest conversation.And if he was ready to give you the commitment you truly deserved...
+Then you should continue.
+Otherwise...The decision would always be yours.After saying all that...
+I quietly smiled.But deep inside...There was a little sadness too.
+By then...I had already fallen in love with you.But I never had the courage to tell you.
+More than anything...
+I never wanted to come between you and Kiran.
+Because I knew...
+At that time...A part of your heart still loved him.
+So I kept my feelings to myself...
+And silently wished for your happiness...
+Even if it wasn't with me. ❤️`
 },
 
 {
@@ -176,7 +294,7 @@ More than anything, I never wanted to come between you and Kiran because I knew 
         "images/varakala4.jpeg"
     ],
 
-    title: "Our Cliff Walk ❤️",
+    title: "Our Cliff Walk 🌄🤍",
 
     message: `After our cliff walk, almost everyone on the trip caught a cold.
 Do you remember how we had planned to sit together on the beach before the trip and just talk for hours?
@@ -219,9 +337,33 @@ And we had long discussion on this photo that you didnt even simled on this phot
         "images/sila3.jpeg"
     ],
 
-    title: "Silaa Cafe changed everything ❤️",
+    title: "Silaa Cafe changed everything ✨❤️",
 
-    message: `☕❤️ This picture at Silaa Café is still my absolute favorite. I don't know why, but every time I look at it, it makes me smile. I've told you so many times how much I love this photo. 🥹💕\n\nThat day was honestly so crazy! 😂 You accidentally left your wallet in the auto, and instead of enjoying our time at the café, we were busy trying to find the auto driver's number. 📱🚖 Somehow, with a little luck, we finally managed to contact him. Even though we missed some of the café vibes, we still made beautiful memories together. ✨☕\n\nAfter that, we headed to watch a movie. 🎬🍿 Just when we thought the day couldn't get any crazier, the auto driver came all the way there and returned your wallet. 🥹🙏 What a relief that was!\n\nAnd of course... we also made that fun video which ended up going viral! 😂🎥❤️ That memory will always make me laugh.\n\n➡️ Click Next to relive that unforgettable video... 🎬💖"❤️`
+    message: `☕ This picture at Silaa Café is still my absolute favorite.I honestly don't know why...
+But every single time I look at it, it brings a smile to my face. 🥹❤️ I've told you so many times how much I love this picture.
+It isn't just a photo...
+It reminds me of one of the craziest and happiest days we spent together.That day started so well...
+But suddenly, you realized your wallet was missing.
+You had accidentally left it in the auto. 😅 Instead of peacefully enjoying our time at the café...
+We were busy trying to find the auto driver's number.For a while, both of us were worried.
+Thankfully...
+With a little luck and a lot of hope, we finally managed to contact him. 🤍 Even though we missed spending more time at the café...
+We still ended up creating one of our favorite memories together.
+After that, we went to watch a movie. 🎬
+Just when we thought the day couldn't get any crazier... The auto driver actually came all the way there and returned your wallet.
+What a relief that was! 🥹
+Looking back now...
+That entire day feels like a beautiful adventure.
+Sometimes...
+The most unexpected moments become the memories we cherish the most.
+And of course...
+How can I forget the funniest part of the day? 😂
+That video which someone made and posted it on Instagram,
+It ended up going viral! ❤️
+Even today, whenever I watch it...
+I can't stop smiling.
+That memory will always have a special place in my heart.
+➡️ Click **Next** to relive that unforgettable moment. 🎥❤️`
 },
 
 {
@@ -244,12 +386,38 @@ And we had long discussion on this photo that you didnt even simled on this phot
 
     title: "Best Ever Trip ❤️",
 
-    message: `🛕✨ And here comes the trip that quietly changed my life... and maybe yours too. 
-    ❤️ What looked like a simple temple trip on the outside turned into the most unforgettable journey of my life. 
-    🚗🌸Every temple we visited, every road we traveled, every conversation we had, and every little moment we shared slowly brought us closer. 🥹💕 Without even realizing it,
-    my heart started seeing you differently. This wasn't just another trip—it became the journey where I truly understood what love feels like. 
-    ❤️🌍 It changed the way I looked at life, relationships, and happiness. Somewhere along this beautiful journey... I completely fell in love with you. 💖😘
-    Some memories are hidden in photographs, while others stay forever in our hearts. This trip gave me both. ✨💞"`
+    message: `🛕 And here comes the trip that quietly changed my life...And maybe yours too. ❤️
+What looked like a simple temple trip on the outside...Turned into the most unforgettable journey of my life.
+Every temple we visited...
+Every road we travelled...
+Every conversation we had...
+And every little moment we shared...
+Slowly brought us closer. 🥹
+Without even realizing it...
+My heart had started seeing you differently.
+This wasn't just another trip.
+It became the journey where I truly understood what love feels like.
+For the first time...
+I realized that happiness wasn't about the places we visited.
+It was about the person I was sharing those moments with.
+You. ❤️
+Somewhere along this beautiful journey...
+Without planning it...
+Without expecting it...
+I completely fell in love with you.
+That trip changed the way I looked at life...
+The way I understood relationships...
+And even the way I defined happiness.
+Looking back now...
+I don't just remember the temples.
+I remember the conversations.
+I remember your smile.
+I remember every laugh we shared.
+Those memories will always stay close to my heart.Some memories are captured in photographs...
+But the most beautiful ones are captured by the heart.
+This trip gave me both.
+Beautiful photographs...
+And a heart full of memories that I'll cherish forever. ❤️`
 },
 
 {
@@ -260,20 +428,69 @@ And we had long discussion on this photo that you didnt even simled on this phot
         "images/udupi5.jpeg"
     ],
 
-    title: "Clicks together ❤️",
+    title: "Clicks together 💕",
 
-    message: `🎉 31st December 2025... a night I'll never forget.
-    🍾 We were all celebrating New Year's Eve together. It became the craziest party of my life 😂. Honestly, I barely remember everything that happened 🍻.
-     I was completely drunk and not in my senses 🤍 But one thing comforts me forever 🙏. I never misbehaved with anyone that night 📞. 
-     I even called my juniors randomly 😂. I kept shouting, wishing everyone Happy New Year 🎊. Somehow, that felt completely normal then 💖. 
-     I remember wishing you and Manogana too ❤️. Then... three magical words escaped my heart 💞. 'I Love You 🤍. To Manogana, it was only friendly affection 💕.
-    But for you... every word was real 🥹. Those feelings had always lived inside me🍷. Maybe the alcohol removed my fear ❤️. My heart finally spoke without hesitation 💍.
-    Yes... I unknowingly proposed to you ✨. People say drunk words reveal honest hearts 🌸. That night made me believe it's true🤍 I never imagined proposing like that 😅,
-    It wasn't romantic or perfectly planned💭, It simply happened from my heart 😔, I didn't even know about you and Kiran then 💔. Later, I worried my words hurt you 🙏.
-    Thankfully, you never stayed angry with me 🥹,Your kindness meant everything to me 💕. I always dreamed of a magical proposal 🌹. Candles, smiles, and beautiful memories together 🚗.
-    But Bangalore and Belgaum kept us apart ⏳.Distance stole many beautiful opportunities 💖. I even planned once 😅.Sadly, that plan completely failed 🌍, Maybe destiny had different plans for us ✨,
-    Looking back, I regret nothing ❤️, Because that night changed my life forever 🌸, God silently brought you into my world 💍. One day, I want another chance 💕. A proper proposal, straight from my heart 📸.
-    This time, we'll capture every beautiful moment. A memory we'll cherish for a lifetime. ❤️`
+    message: `🎉 31st December 2025...
+A night I'll never forget.
+We were all celebrating New Year's Eve together. 🥂
+Honestly...
+It became one of the craziest parties of my life.
+I barely remember everything that happened because I was completely drunk and not in my senses. 😅
+But one thing has always comforted me...
+Even in that condition, I never misbehaved with anyone that night.
+Instead...
+I was randomly calling my juniors, wishing everyone a Happy New Year. 😂
+I remember calling you...
+And Manogana too.
+To Manogana...
+Those words were nothing more than friendly affection.
+But when I said...
+"I Love You" ❤️
+Every single word came straight from my heart.
+Those feelings had been living inside me for a long time.
+Maybe the alcohol simply took away the fear that had been stopping me.
+For the very first time...
+My heart spoke without hesitation. 🥹
+Yes...
+Without even realizing it...
+I unknowingly proposed to you.
+People often say,
+"Drunk words reveal honest hearts."
+That night made me believe it was true.
+It wasn't romantic.
+It wasn't perfectly planned.
+There were no flowers...
+No candles...
+No beautiful setup.
+It was simply my heart speaking before my mind could stop it.
+At that time...
+I didn't even know about you and Kiran.
+Later, I kept wondering whether my words had hurt you.
+Thankfully...
+You never stayed angry with me.
+Your kindness meant more to me than you'll ever know. ❤️
+To be honest...
+I had always dreamed of proposing to you properly.
+A beautiful evening...Candles...Smiles...
+A place filled with memories...
+And asking you the question straight from my heart. 🌹
+But Bangalore and Belgaum kept us apart.
+Distance quietly stole many beautiful opportunities.
+I even planned it once...
+But sadly...
+That plan never happened.
+Maybe destiny had something different in mind.
+Looking back today...
+I don't regret that night.
+Because that was the night my heart finally admitted what it had been feeling all along.
+It was the night that changed my life forever.
+Maybe God quietly brought you into my world for a reason. ❤️
+And if life ever gives me one more chance...
+I still want to give you the proposal I always dreamed of.
+A proposal filled with smiles...
+Happy tears...Beautiful memories...And this time...
+We'll capture every single moment together.
+A memory we'll cherish for the rest of our lives. ❤️`
 },
 
 {
@@ -284,21 +501,45 @@ And we had long discussion on this photo that you didnt even simled on this phot
         "images/udupi7.jpeg"
     ],
 
-    title: "Travel Dairy",
+    title: "Travel Dairy 🚗❤️",
 
-    message: `🤍 Looking back now, I don't think it was just a coincidence.\n\n✨ Almost every trip and outing brought us together.\n\n🚗 Somehow, we always ended up sitting beside each other.\n\n💕
-    Maybe destiny had already reserved that seat for us.\n\n🥹 Every journey felt special because you were next to me.\n\n❤️ Sitting beside you always made me feel comfortable.\n\n🤍 I hope you felt the same way too.\n\n😅 
-    And yes... I have a little confession.\n\n🙈 Most of the time, I intentionally chose the seat beside you.\n\n💖 Because every minute with you made me genuinely happy.\n\n📸 This picture reminds me of one beautiful moment.\n\n😊 
-    You were saying something very seriously.\n\n😅 I don't remember if you were angry with me.\n\n👀 But I still remember what I told you.\n\n😂 'When you open your eyes wide...'\n\n🥺 '...I get scared you'll scold or even beat me!'\n\n🤣 
-    You laughed at my silly words.\n\n💕 But there was one truth behind that joke.\n\n😍 I absolutely love your beautiful eyes.\n\n✨ They always speak louder than words.\n\n😊 And your smile...\n\n❤️ Your smile became my favorite sight.\n\n💖 
-    Every smile made me fall for you even more.\n\n🌸 Every glance, every laugh, every little moment...\n\n🥹 Slowly turned into reasons to love you.\n\n💞 Maybe that's how love quietly found its way into my heart. ❤️"`
+    message: `🤍 Looking back now, I don't think it was just a coincidence.
+Almost every trip and outing somehow brought us together.
+No matter where we went...
+We always ended up sitting beside each other. 🚗
+Maybe destiny had already reserved that seat for us. ❤️
+Every journey felt special simply because you were next to me.
+Sitting beside you always gave me a sense of comfort and happiness.
+I truly hope you felt the same way too. 🥹
+And yes...
+I have a little confession.
+Most of the time, I intentionally chose the seat beside you. 🙈
+Because every minute spent with you made me genuinely happy.
+This picture reminds me of one beautiful moment. 📸
+You were saying something very seriously.
+I don't even remember whether you were angry with me or just explaining something.
+But I still remember what I told you...
+"When you open your eyes wide..."
+"...I get scared you'll scold me or even beat me!" 😂
+You laughed at my silly words.
+But there was one truth hidden behind that joke.
+I absolutely love your beautiful eyes. ❤️
+They always spoke more than words ever could.
+And your smile...
+Your smile slowly became my favorite sight in the world.
+Every smile made me fall for you a little more.
+Every glance...Every laugh...
+Every little moment we shared...
+Quietly became another reason for me to love you.
+Maybe that's how love found its way into my heart...Silently...Naturally...
+And forever. ❤️`
 },
 
 {
     type: "video",
     src: "videos/udupi8.mp4",
 
-    title: "Memories",
+    title: "Memories 🫶",
 
     message: `Travel videos ❤️`
 },
@@ -307,17 +548,31 @@ And we had long discussion on this photo that you didnt even simled on this phot
     type: "image",
     src: "images/commit.jpeg",
 
-    title: "The Day Of Our Life ❤️",
+    title: "The Day Of Our Life 🥹❤️",
 
-    message: `On the last day of our trip, as everyone started leaving for home, I was about to leave too. But my heart wouldn't let me go without talking to you. 🥹
-Somewhere deep inside, I kept wondering if I had unknowingly done something during the trip that had hurt you. Before leaving, I wanted to know how you truly felt.
-After everyone left, we finally got a quiet moment together. We sat side by side and talked about everything that had happened during the trip.
-We shared our thoughts, our feelings, our fears, and every little thing that had been on our minds. Slowly, every misunderstanding disappeared.
-The biggest relief for me was realizing that you weren't hurt. Instead, you accepted my love with the most beautiful smile I've ever seen. ❤️
-Then came the hug...A hug I'll cherish for the rest of my life. For a few beautiful moments, it felt like the whole world had stopped, and it was just you and me.
-We spoke about our future, our dreams, and the journey we wanted to build together. We promised to stand beside each other through every happiness and every challenge.
-That conversation didn't just end our trip... It became the beginning of our beautiful journey together. Seeing the happiness in your eyes was the most precious gift I could ever receive.
-That day, we didn't just accept each other...We chose each other. And if life gives me a choice again and again...I'll always choose you. Forever. ❤️`
+    message: `On the last day of our trip, as everyone started leaving for home, I was about to leave too.
+But my heart wouldn't let me go without talking to you. 🥹
+Somewhere deep inside, I kept wondering if I had unknowingly done something during the trip that had hurt you.
+Before leaving, I wanted to know how you truly felt.
+After everyone left, we finally got a quiet moment together.
+We sat side by side and talked about everything that had happened during the trip.
+We shared our thoughts, our feelings, our fears, and every little thing that had been on our minds.
+Slowly, every misunderstanding disappeared.
+The biggest relief for me was realizing that you weren't hurt.
+Instead, you accepted my love with the most beautiful smile I've ever seen. ❤️
+Then came the hug...
+A hug I'll cherish for the rest of my life.
+For a few beautiful moments, it felt like the whole world had stopped, and it was just you and me.
+We spoke about our future, our dreams, and the journey we wanted to build together.
+We promised to stand beside each other through every happiness and every challenge.
+That conversation didn't just end our trip...
+It became the beginning of our beautiful journey together.
+Seeing the happiness in your eyes was the most precious gift I could ever receive.
+That day, we didn't just accept each other...
+We chose each other.
+And if life gives me a choice again and again...
+I'll always choose you.
+Forever. ❤️`
 },
 
 {
@@ -332,7 +587,7 @@ That day, we didn't just accept each other...We chose each other. And if life gi
         "videos/home2.mp4"
     ],
 
-    title: "Randome Snaps ❤️",
+    title: "Randome Snaps ✨",
 
     message: `Some moments spent together ❤️`
 },
@@ -346,7 +601,7 @@ That day, we didn't just accept each other...We chose each other. And if life gi
        
     ],
 
-    title: "Mysuru ❤️",
+    title: "Mysuru 💙",
 
     message:`The Mysuru trip was never really part of the plan. ❤️
 At first, we had completely cancelled it. But somehow, destiny had different plans for us. ✨
@@ -367,7 +622,7 @@ It gave me another beautiful memory with you that I'll always cherish forever. �
        
     ],
 
-    title: "Mysuru ❤️",
+    title: "Mysuru 💜",
 
     message: `You suddenly decided to visit the store, and even then, you weren't sure whether to buy one. We waited there for hours until late at night.
 None of us got proper sleep, but somehow it never felt tiring. Every moment spent with you made the wait completely worth it. ❤️
@@ -387,7 +642,7 @@ It gave me another beautiful memory with you that I'll always cherish forever. �
         "videos/mysuru1.mp4"
     ],
 
-    title: "Mysuru Memories ❤️",
+    title: "Mysuru Memories 🤍",
 
     message: `I am really very sorry if i hurted you in mysuru trip kanda❤️`
 },
@@ -413,7 +668,7 @@ It gave me another beautiful memory with you that I'll always cherish forever. �
         "images/date1.jpeg"
        ],
 
-    title: "Holding your hand life long ❤️",
+    title: "Holding your hand life long ❤️♾️",
 
     message:`People say love is found in grand gestures. I found it in the way you looked at me.
 In the way our hands found each other. In the peaceful silence we shared.
@@ -425,32 +680,408 @@ And i said before on 3rd jan night i will not leave you i will be there for you 
     type: "image",
     src: "images/manga.jpeg",
 
-    title: "Mangalore ❤️",
+    title: "Mangalore 🧡",
 
-    message: `❤️ Our Mangalore trip was one of the most unexpected, yet one of the most beautiful memories we'll always share. Initially, you were supposed to travel with your family, while I had planned to stay back in my hometown.
-But when those plans changed, you looked at me and asked, "Will you come with me?" 🥹 Without thinking for even a second, my answer was an instant "Yes."
-The truth is, I would've said yes to any journey... as long as it was with you. ❤️ As soon as I returned to Bangalore, we planned everything together and booked our resort.
-Since we both had interviews over the weekend, we decided to travel on a weekday instead. Unfortunately, I couldn't plan my office leave properly and had to take an emergency leave.
-Because I was worried about logging in, I rushed our temple darshan. I know that disappointed you, and I'm genuinely sorry for that. Looking back now, I wish I had forgotten about work and given every single moment of that trip completely to you. ❤️
-That evening, we were excited to witness the famous Mangalore Kola Festival. Sadly, it wasn't happening that day. And just like our Varkala trip, the rain once again stole our dream of walking together on the beach. 🌧️
-Later that day, you suddenly received multiple interview calls. Since you also had to return for Deepa on Friday, we decided to cut our trip short and head back home.
-Many of our plans didn't go the way we had imagined. But whenever I think about this trip, I never remember the disappointments. I remember saying "yes" to a journey with you.
-I remember every conversation, every laugh, every little moment we shared. Because no matter where we go or how the plans change...Every journey becomes special when I'm traveling with you. ❤️`
+    message: `❤️ Our Mangalore trip was one of the most unexpected, yet one of the most beautiful memories we'll always share.
+At first, you were supposed to travel with your family while I had planned to stay back in my hometown.
+But suddenly, those plans changed...
+You looked at me and asked,
+**"Will you come with me?"** 🥹
+Without even thinking for a second, my answer was an instant...
+**"Yes."** ❤️
+The truth is...
+I would've said **yes** to any journey...
+As long as it was with you. ❤️
+As soon as I returned to Bangalore, we planned everything together and booked our resort.
+Since we both had interviews over the weekend, we decided to travel on a weekday instead.
+Unfortunately, I couldn't plan my office leave properly and had to take an emergency leave.
+Because I was worried about logging in to work, I rushed our temple darshan.
+I know that disappointed you.
+And I'm truly, genuinely sorry for that. 🤍
+Looking back now...
+I wish I had forgotten about work completely.
+I wish I had given every single minute of that trip only to you. ❤️
+Later that evening, we were so excited to witness the famous **Mangalore Kola Festival.**
+Sadly...
+It wasn't happening that day. 😔
+And just like our Varkala trip...
+The rain once again stole our dream of walking together on the beach. 🌧️❤️
+Later, you suddenly started receiving interview calls.
+Since you also had to return for Deepa on Friday, we decided to cut our trip short and head back home.
+Honestly...
+Many of our plans never happened the way we had imagined.
+But whenever I look back at this trip...
+
+I never remember the disappointments.
+I remember saying **"Yes"** to a journey with you.
+I remember our conversations.
+I remember your smile.
+I remember every laugh.
+I remember every little moment we shared together.
+
+Because I realized something very beautiful...
+
+It's never about the destination.
+It's never about whether every plan goes perfectly.
+It's always about **who you're travelling with.** ❤️
+
+And for me...
+Every road felt beautiful...
+Every place felt special...
+Every memory became unforgettable...
+Simply because **you were beside me.** 🥹❤️`
+},
+
+{
+    type: "gallery",
+ images:  ["gifs/page2.gif"
+ ],
+
+    title: "I'm A Letter From My Heart 💌🥺",
+
+    message: `My Dearest Geetha ❤️🌸,
+Before you read this, I just want to ask you for one thing...
+Please read it till the end. 🙏🏻
+I know I have hurt you deeply, and for that, I am truly, genuinely, and wholeheartedly sorry.
+There hasn't been a single day where I haven't thought about everything that happened and realized how much pain I caused you.
+The biggest regret I carry is not being there for you emotionally when you moved to Chennai.
+Looking back now, I completely understand why you felt alone.
+At that time, I believed everything would eventually become okay.
+But now I realize something much more important...
+The person you needed the most wasn't standing beside you the way he should have.
+I also want you to know something—not to justify my mistake, but because it's the truth.
+I had planned to surprise you that weekend and spend time with you.
+Unfortunately, because of my health condition, I couldn't come.
+Even though my intentions were different, I now understand that intentions don't matter as much as how someone feels.
+And I failed to make you feel loved, supported, and understood.
+For that...
+I am deeply sorry. 🤍
+It's been more than a month since we last spoke.
+I don't know how you're doing...
+I don't know if you're eating on time...
+I don't know if you're smiling...
+I don't know how life has been treating you...
+Not knowing these little things hurts me every single day because, once upon a time, your happiness was part of my everyday life.
+To be honest...
+After everything happened, I kept thinking about how I could convince you to give us one chance.
+I wrote countless messages.
+But every single time...
+I deleted them.
+Nothing ever felt enough.
+Nothing truly reflected what was in my heart.
+Then one day...
+An idea came to me.
+Instead of writing hundreds of words...
+I wanted to show you our journey.
+➡️ Continue to the next page...`
 },
 
 {
     type: "image",
-src: "gifs/peach-cat-cute.gif",
+src: "gifs/second2.gif",
 
-    title: "I'm Really Sorry 🥺❤️",
+    title: "Our Story 🤗💕",
 
-    message: `I know I made mistakes.
-I never wanted to hurt you.
-If my words or actions caused you pain,
-I'm truly sorry from the bottom of my heart.
-Please forgive me.
-You mean the world to me.
-🥺❤️`
+    message: `That's why I created this website...
+Only for you. ❤️
+Every page...
+Every animation...
+Every memory...
+Was made with love.
+
+It captures...
+✨ The day we first met.
+✨ How we slowly became friends.
+✨ Our endless conversations.
+✨ The moments that brought us closer.
+✨ The little memories that made us smile.
+✨ The day we fell in love.
+✨ And every beautiful chapter of our journey until today.
+
+While creating this website...
+I smiled.
+I laughed.
+I cried.
+I relived every beautiful memory we made together.
+I truly hope you liked it.
+Because this isn't just another website.
+It's our story.
+It's a small piece of my heart.
+
+Kanda...
+I don't believe silence is the answer.
+Silence only creates more distance.
+Communication creates understanding.
+I genuinely feel that if we sit together...
+Face to face...
+Without anger.
+Without ego.
+Without interruptions.
+
+We can finally understand each other's pain.
+I'm not asking you to come back immediately.
+I'm not asking you to forgive me today.
+I'm only asking for one meeting.
+
+One conversation.
+One chance to truly listen to you.
+Please tell me everything that hurt you.
+Every moment I disappointed you.
+Every expectation I failed to fulfill.
+Every reason that made you walk away.
+
+I promise...
+I won't interrupt you.
+I won't defend myself.
+I won't try to prove I was right.
+I only want to understand your pain.
+Because unless I truly understand it...
+I can never become the person you deserved.
+➡️ One last page...`
+},
+
+{
+    type: "image",
+src: "gifs/third2.gif",
+
+    title: "One Last Request 🫶",
+
+    message: `I know relationships aren't perfect.
+Every relationship has misunderstandings.
+Mistakes.
+Difficult phases.
+The difference isn't whether problems exist.
+The difference is whether two people choose to fight for the relationship instead of against each other.
+I know I made mistakes.
+I accept every one of them.
+I'm not proud of them.
+And I'm not asking you to ignore them.
+I'm simply asking for one opportunity to correct them.
+Because I don't want my mistakes to become the reason I lose the person I love the most.
+I know saying "I'm sorry" cannot erase your pain.
+But I hope...
+Someday...
+My actions can heal at least a part of it.
+You once asked me...
+"Will you always stay with me?" ❤️
+My answer has never changed.
+Yes.
+No matter how difficult life becomes...
+
+I still want to be the person who stands beside you.
+Supports you.
+Protects your peace.
+And makes you smile again.
+Not through promises...
+But through consistent actions.
+One quote stayed with me while making this website...
+"The strongest relationships are not the ones without problems; they are the ones where two people choose each other even after facing them."
+And another one touched my heart deeply...
+"Love doesn't ask for perfection. It asks for honesty, understanding, forgiveness, and the willingness to grow together."
+If there is even the smallest place left in your heart for us...
+
+Please give me one chance.
+Just one conversation.
+
+Let's leave our phones aside.
+Let's leave our anger aside.
+Let's leave our egos aside.
+Let's simply talk.
+
+If, after that conversation, you still feel your decision is the same...
+I will respect it with all my heart.
+Because what matters most to me isn't winning an argument.
+It's making sure we never lose each other without first truly understanding each other.
+Whenever your heart feels ready...
+Tomorrow...
+Next week...
+Or even much later...
+I'll be here.
+Waiting patiently.
+Because some people are worth waiting for.
+And for me...
+That person will always be you. ❤️🌸
+Please take care of yourself.
+Eat on time.
+Smile whenever you can
+That smile has always been my favorite place. 🥹❤️`
+},
+
+{
+    type: "image",
+src: "gifs/third3.gif",
+
+    title: "One Last Thing... 🥹",
+
+    message: `There's just one last thing I want to share with you.
+Life reminds me of a traffic signal.
+When the light turns ❤️ Red,
+we stop.
+Not because the journey has ended...
+but because it's asking us to pause.
+When it turns 💛 Yellow,
+we move slowly,
+carefully,
+learning from what lies ahead.
+And when it finally turns 💚 Green,
+we continue our journey towards the destination we always wanted to reach.
+I feel we're standing at that red light right now.
+Everything between us has paused.
+But deep in my heart,
+I still believe this isn't where our journey was meant to end.
+
+Maybe...
+all we need is one honest conversation,
+one moment of understanding,
+and one chance to move forward together.
+I've accepted my mistakes.
+I know I can't change the past.
+I know I can't erase the tears I caused.
+But if life gives me one more opportunity...
+I won't waste it.
+Not with bigger promises...
+But with better actions.
+Because love isn't proved by beautiful words.
+
+It's proved by showing up,
+understanding each other,
+and choosing each other,
+every single day.
+You once became my happiest chapter.
+And no matter what happens tomorrow...
+You'll always be one of the most beautiful parts of my life.
+If your heart ever tells you,
+"Maybe we should talk..."
+
+Please call me.
+I'll be there.
+No anger.
+No ego.
+No arguments.
+Just me...
+Listening to the person I'll always care about.
+❤️
+'Some stories deserve one more conversation before the final page is written.'
+I'll patiently wait for that conversation.
+Take care of yourself.
+Please eat on time.
+Please keep smiling.
+Because your smile has always been my favorite place. 🥹❤️
+Forever Yours,
+❤️ Your Bubu 🫶🏻`
+},
+
+{
+    type: "image",
+src: "gifs/blank.gif",
+
+    title: "❤️ This Page Is Intentionally Left Blank... ❤️",
+
+    message: `Because I don't want our story to end here.
+This page is empty today because, from the bottom of my heart, I believe there are still so many beautiful chapters left for us to write... together. 🥹❤️
+I still dream about watching us grow—not just as a couple, but as two people who inspire each other to become better every single day.
+
+🌱 Growing personally.
+💼 Growing professionally.
+🤝 Supporting each other's dreams.
+🎉 Celebrating every achievement, no matter how small.
+❤️ Standing beside each other through every challenge life brings.
+
+I still imagine the day we build a home that truly feels like "ours." 🏡
+A home filled with laughter... 😂
+Late-night conversations... 🌙
+Morning chai together... ☕
+Random dancing in the living room... 💃🕺
+Weekend cooking disasters... 👩‍🍳😂
+Tiny arguments that end with hugs... 🤗
+Countless memories...
+And a lifetime full of love. ❤️
+I dream about taking care of our parents together, making them proud, and giving them every happiness they deserve. 🥹🙏
+And maybe one day...
+We'll become parents ourselves. 👨‍👩‍👧❤️
+You already know this...
+I always keep teasing you about it. 😄
+But honestly...
+
+I've always secretly wished for a little daughter. 🥹🌸
+A tiny princess with your beautiful smile...
+Your kind heart...
+Your innocence...
+Your expressive eyes that made me fall in love with you.
+Someone who calls you "Amma" and me "Papa."
+Someone who fills our home with laughter and little footsteps. 👣❤️
+But whether life blesses us with a daughter or a son...
+I'll be equally grateful.
+
+Because they would grow up surrounded by nothing but love. ❤️
+
+I know life will never be perfect.
+We'll disagree sometimes.
+We'll have little fights.
+We'll get angry.
+We'll make mistakes.
+We'll have difficult days.
+
+But I hope we'll also become the kind of couple that never lets those moments become bigger than our love.
+
+The kind of couple that sits together...
+Talks openly...
+Understands each other...
+Says "I'm sorry" when needed...
+Forgives wholeheartedly...
+And chooses each other...
+Again...
+And again...
+Every single day. ❤️
+I don't dream of a perfect relationship.
+I dream of a real one.
+A relationship where we continue growing together through every season of life.
+
+Growing older together... 👴🏻👵🏻❤️
+Watching our hair slowly turn grey...
+Laughing at old photographs...
+Holding each other's hands during evening walks...
+Teasing each other over silly things...
+Celebrating every birthday...
+Every anniversary...
+Every festival...
+Every milestone...
+
+Together.
+And one day...
+
+Many, many years from now...
+Sitting on our balcony...
+Watching the sunset together... 🌅
+Holding your hand...
+Looking back at our journey...
+Smiling...
+And saying...
+"We made it." ❤️
+
+There are still so many pages left unwritten.
+
+So many dreams left to chase. ✨
+So many places left to explore together. 🌍
+So many sunsets left to watch. 🌅
+So many road trips left to plan. 🚗
+So many celebrations left to enjoy. 🎉
+So many hugs left to share. 🤗
+So many "I Love You's" left to say. ❤️
+So many memories left to create.
+
+This page is intentionally left blank...
+Because I truly hope...
+With all my heart...
+That one day...
+We'll write these chapters together.
+And if life gives us that chance...
+I promise...
+I'll spend every single day trying to become the husband and life partner you truly deserve—not because I'm perfect, but because loving you has taught me how important it is to keep learning, growing, and becoming better. ❤️
+Until our very last breath... 🤞🏻❤️
+"Every beautiful story has many chapters.
+I truly hope...
+Ours is still being written." 📖❤️`
 },
 
 ]
@@ -621,7 +1252,17 @@ function typeWriter(text) {
 
     typingTimer = setInterval(() => {
 
-        memoryMessage.innerHTML += text.charAt(i);
+        const char = text.charAt(i);
+
+        if (char === "\n") {
+
+            memoryMessage.innerHTML += "<br>";
+
+        } else {
+
+            memoryMessage.innerHTML += char;
+
+        }
 
         i++;
 

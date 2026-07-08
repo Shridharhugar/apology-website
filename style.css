@@ -507,7 +507,9 @@ Memory Message
 
     box-shadow:0 10px 25px rgba(0,0,0,0.15);
 
-    text-align:justify;
+    text-align:left;
+
+    white-space: pre-wrap;
 
     animation:fadeUp .8s;
 
