@@ -911,7 +911,7 @@ That smile has always been my favorite place. 🥹❤️`
     type: "image",
 src: "gifs/third3.gif",
 
-    title: "One Last Thing... 🥹",
+    title: "One Last Thing... 💞",
 
     message: `There's just one last thing I want to share with you.
 Life reminds me of a traffic signal.
@@ -1123,6 +1123,30 @@ function stopCurrentVideo() {
 }
 
 // ==========================================
+// Resume Background Music
+// ==========================================
+
+function resumeBackgroundMusic() {
+
+    if (!bgMusic.paused) return;
+
+    bgMusic.play()
+        .then(() => {
+
+            musicBtn.innerHTML = "⏸️";
+
+            musicBtn.classList.add("playing");
+
+        })
+        .catch(() => {
+
+            console.log("Autoplay blocked.");
+
+        });
+
+}
+
+// ==========================================
 // Create Image
 // ==========================================
 
@@ -1147,7 +1171,8 @@ function createVideo(memory) {
         <video
             class="love-photo"
             controls
-            autoplay>
+            autoplay
+            playsinline>
 
             <source
                 src="${memory.src}"
@@ -1159,7 +1184,6 @@ function createVideo(memory) {
     `;
 
 }
-
 // ==========================================
 // Create Gallery
 // ==========================================
@@ -1304,12 +1328,72 @@ function showMemory(index) {
                 break;
 
             case "video":
-                mediaContainer.innerHTML = createVideo(memory);
-                break;
+
+    mediaContainer.innerHTML = createVideo(memory);
+
+    const video = mediaContainer.querySelector("video");
+
+    if(video){
+
+        video.addEventListener("play",()=>{
+
+            bgMusic.pause();
+
+            musicBtn.innerHTML="▶️";
+
+            musicBtn.classList.remove("playing");
+
+        });
+
+        video.addEventListener("pause",()=>{
+
+            resumeBackgroundMusic();
+
+        });
+
+        video.addEventListener("ended",()=>{
+
+            resumeBackgroundMusic();
+
+        });
+
+    }
+
+    break;
 
             case "gallery":
-                mediaContainer.innerHTML = createGallery(memory);
-                break;
+
+    mediaContainer.innerHTML = createGallery(memory);
+
+    const galleryVideos = mediaContainer.querySelectorAll("video");
+
+    galleryVideos.forEach(video=>{
+
+        video.addEventListener("play",()=>{
+
+            bgMusic.pause();
+
+            musicBtn.innerHTML="▶️";
+
+            musicBtn.classList.remove("playing");
+
+        });
+
+        video.addEventListener("pause",()=>{
+
+            resumeBackgroundMusic();
+
+        });
+
+        video.addEventListener("ended",()=>{
+
+            resumeBackgroundMusic();
+
+        });
+
+    });
+
+    break;
 
             default:
                 mediaContainer.innerHTML = "";
