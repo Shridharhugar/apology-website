@@ -909,7 +909,7 @@ That smile has always been my favorite place. 🥹❤️`
 
 {
     type: "image",
-src: "gifs/third3.gif",
+src: "gifs/third1.gif",
 
     title: "One Last Thing... 💞",
 
