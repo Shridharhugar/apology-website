@@ -8,7 +8,7 @@ const memories = [
     type: "image",
     src: "images/photo1.jpeg",
 
-    title: "Our First Photo ❤️",
+    title: "Our First Photo Together ❤️",
 
     message: `❤️ Every story has a beginning...
 And for me...
@@ -24,7 +24,7 @@ Thank you for becoming one of the most beautiful parts of my life. ❤️`
     type: "image",
     src: "images/photo2.jpeg",
 
-    title: "Our Happy Moment 🩷",
+    title: "Team Outing 🩷",
 
     message: `😊 This was our very first team outing together.
 I still remember standing behind you while this picture was being taken.
@@ -325,7 +325,7 @@ And we had long discussion on this photo that you didnt even simled on this phot
     message: `We never actually took a photo together at Padmanabha Swamy Temple. 
     Yet somehow, we both appeared in the same frame. Maybe it was just a coincidence, 
     or maybe the universe was quietly giving me a sign that our paths were meant to cross. ❤️
-    and u this cap you had kept in my bag while coming back on train and i had forgot to give u back and u said to keep it with you.`
+    and this cap you had kept in my bag while coming back on train and i had forgot to give u back and u said to keep it with you.`
 },
 
 {
@@ -339,13 +339,13 @@ And we had long discussion on this photo that you didnt even simled on this phot
 
     title: "Silaa Cafe changed everything ✨❤️",
 
-    message: `☕ This picture at Silaa Café is still my absolute favorite.I honestly don't know why...
+    message: `☕ This picture of your at Silaa Café is still my absolute favorite.I honestly don't know why...
 But every single time I look at it, it brings a smile to my face. 🥹❤️ I've told you so many times how much I love this picture.
 It isn't just a photo...
 It reminds me of one of the craziest and happiest days we spent together.That day started so well...
 But suddenly, you realized your wallet was missing.
 You had accidentally left it in the auto. 😅 Instead of peacefully enjoying our time at the café...
-We were busy trying to find the auto driver's number.For a while, both of us were worried.
+We were busy trying to find the auto driver's number.For a while, we three of us were worried.
 Thankfully...
 With a little luck and a lot of hope, we finally managed to contact him. 🤍 Even though we missed spending more time at the café...
 We still ended up creating one of our favorite memories together.
@@ -372,7 +372,10 @@ That memory will always have a special place in my heart.
 
     title: "Viral Vayyari 😘💕",
 
-    message: `🎥✨ Here's the crazy video from that unforgettable day! 😂❤️ Who would've thought this little moment would go viral? It has crossed an incredible 950K+ views and is still counting! 🚀💖 Every time I watch it, it brings back all those beautiful memories and makes me smile. 🥹💕"`
+    message: `🎥✨ Here's the crazy video from that unforgettable day! 
+    😂❤️ Who would've thought this little moment would go viral? 
+    It has crossed an incredible 950K+ views and is still counting! 🚀💖 
+    Every time I watch it, it brings back all those beautiful memories and makes me smile. 🥹💕"`
 },
 
 {
@@ -516,7 +519,7 @@ I have a little confession.
 Most of the time, I intentionally chose the seat beside you. 🙈
 Because every minute spent with you made me genuinely happy.
 This picture reminds me of one beautiful moment. 📸
-You were saying something very seriously.
+1st picture of your's, you was saying something very seriously.
 I don't even remember whether you were angry with me or just explaining something.
 But I still remember what I told you...
 "When you open your eyes wide..."
@@ -536,12 +539,23 @@ And forever. ❤️`
 },
 
 {
-    type: "video",
-    src: "videos/udupi8.mp4",
+   type: "gallery",
+
+    images: [
+        "images/travel.jpeg"
+    ],
+
+    videos: [
+        "videos/udupi8.mp4"
+    ],
 
     title: "Memories 🫶",
 
-    message: `Travel videos ❤️`
+    message: `This photo may look simple to others, but it means so much to me. ❤️
+    Most of the time, we somehow managed to sit together because neither of us liked being apart. Being beside you always felt comfortable, peaceful, and complete. 🥹
+    This was one of those rare moments where we had to sit separately. Even then, I couldn't stop looking back just to see your smile. 😊
+    It reminded me that it's never about where we're sitting...
+    It's about having you with me. No matter the distance between us, you'll always be the closest person to my heart. 🤍♾️`
 },
 
 {
@@ -584,7 +598,8 @@ Forever. ❤️`
 
     videos: [
         "videos/Home1.mp4",
-        "videos/home2.mp4"
+        "videos/home2.mp4",
+        "videos/snap.mp4"
     ],
 
     title: "Randome Snaps ✨",
@@ -622,12 +637,16 @@ It gave me another beautiful memory with you that I'll always cherish forever. �
        
     ],
 
-    title: "Mysuru 💜",
+    title: "A Promise in Our Hearts ❤️",
 
-    message: `You suddenly decided to visit the store, and even then, you weren't sure whether to buy one. We waited there for hours until late at night.
-None of us got proper sleep, but somehow it never felt tiring. Every moment spent with you made the wait completely worth it. ❤️
-Sometimes, the best memories come from the most unexpected plans. Looking back now, I'm really glad this sudden trip happened.
-It gave me another beautiful memory with you that I'll always cherish forever. 💖`
+    message: `The first picture captures the love in our eyes. ❤️
+        The second captures the promise in our hands. 🤝✨
+        Looking at you, I don't just see the person I love—I see my peace, my happiness, and the future I've always dreamed of. 🥹💕
+        Every smile we shared became a memory I'll cherish forever, and every moment spent with you reminded me how lucky I am to have you in my life. ❤️
+        Holding your hand isn't just about being close to you.
+        It's the feeling of safety, comfort, and knowing that no matter where life takes us, you're the one I want beside me. 🤍
+        If I had the chance to choose again, I'd still choose you...
+        Every single time. ❤️♾️🌍`
 },
 
 {
@@ -842,7 +861,7 @@ I can never become the person you deserved.
 
 {
     type: "image",
-src: "gifs/third2.gif",
+src: "gifs/third3.gif",
 
     title: "One Last Request 🫶",
 
@@ -900,11 +919,7 @@ I'll be here.
 Waiting patiently.
 Because some people are worth waiting for.
 And for me...
-That person will always be you. ❤️🌸
-Please take care of yourself.
-Eat on time.
-Smile whenever you can
-That smile has always been my favorite place. 🥹❤️`
+That person will always be you. ❤️🌸`
 },
 
 {
@@ -990,7 +1005,7 @@ I still dream about watching us grow—not just as a couple, but as two people w
 I still imagine the day we build a home that truly feels like "ours." 🏡
 A home filled with laughter... 😂
 Late-night conversations... 🌙
-Morning chai together... ☕
+Morning chai & coffee together... ☕
 Random dancing in the living room... 💃🕺
 Weekend cooking disasters... 👩‍🍳😂
 Tiny arguments that end with hugs... 🤗
