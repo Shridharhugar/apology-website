@@ -225,8 +225,11 @@ They're the ones that stay in our hearts forever. ❤️`
 },
 
 {
-    type: "image",
-    src: "images/varakala1.jpeg",
+    type: "gallery",
+
+     images: [ "images/varakala1.jpeg",
+               "images/varakala.jpeg"
+    ],
 
     title: "Varkala Trip 🌊🩷",
 
@@ -303,8 +306,12 @@ Even today, I wish we had gotten that beautiful moment together. ❤️`
 },
 
 {
-    type: "image",
-    src: "images/varakala5.jpeg",
+    type: "gallery",
+    images: ["images/varakala5.jpeg",      
+    ],
+    
+    videos: ["videos/varakala1.mp4"
+    ],
 
     title: "One More Beautiful Memory ❤️",
 
@@ -1097,6 +1104,24 @@ Until our very last breath... 🤞🏻❤️
 "Every beautiful story has many chapters.
 I truly hope...
 Ours is still being written." 📖❤️`
+},
+
+{
+    type: "gallery",
+
+    videos: [
+        "videos/last.mp4"
+    ],
+
+    title: "ಒಂದ್ ಅವಕಾಶ ಕೊಡ್ತಿಯಾ 🤞🏻",
+
+    message: `I know I've made mistakes, and I can't change the past. 💔
+But if you give me just one more chance, I'll spend every single day proving that your trust wasn't misplaced. 🤍
+I don't want temporary happiness... I want to be the reason behind your smile 😊, the person who makes you feel safe 🫂, loved ❤️, and never lets you question your worth again.
+I'll take care of your heart with patience 🌸, honesty 🤝, respect 💖, and unconditional love. I'll stand beside you through every high and low because losing you is something I never want to experience again. 🥺
+You're not just someone I love... you're the person I want to grow old with, laugh with, and create every beautiful memory with. ✨🌍
+Please... give me one more chance. 🙏❤️
+I promise this time, my actions will speak louder than my words. 💞`
 },
 
 ]
