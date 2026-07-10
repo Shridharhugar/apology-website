@@ -677,8 +677,8 @@ It gave me another beautiful memory with you that I'll always cherish forever. �
     type: "gallery",
 
     videos: [
-        "videos/kahale.mp4",
-        "videos/kahale1.mp4"
+        "videos/kahale1.mp4",
+        "videos/kahale.mp4"
     ],
 
     title: "Random Videos 😘💕",
